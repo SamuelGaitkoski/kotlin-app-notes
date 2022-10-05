@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="-174dp">
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:width="250dp"
+        android:gravity="center"
+        android:text="Suas notas"
+        android:textColor="#393232"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="61dp" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:width="250dp"
+        android:height="55dp"
+        android:backgroundTint="#393232"
+        android:text="Adicionar nota"
+        android:textSize="17sp"
+        app:cornerRadius="0dp"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="424dp" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:width="250dp"
+        android:height="55dp"
+        android:backgroundTint="#393232"
+        android:text="Excluir nota"
+        android:textSize="17sp"
+        app:cornerRadius="0dp"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="551dp" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:width="250dp"
+        android:height="55dp"
+        android:backgroundTint="#393232"
+        android:text="Editar nota"
+        android:textSize="17sp"
+        app:cornerRadius="0dp"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="487dp" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:width="250dp"
+        android:height="55dp"
+        android:backgroundTint="#393232"
+        android:text="Sair da conta"
+        android:textSize="17sp"
+        app:cornerRadius="0dp"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="617dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selecionar nota"
+        android:textColor="#393232"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="190dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selecionar nota"
+        android:textColor="#393232"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="327dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nota 1"
+        android:textColor="#393232"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="131dp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nota 2"
+        android:textColor="#393232"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="268dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:width="250dp"
+        android:gravity="start|left"
+        android:text="- Conteúdo da nota 2"
+        android:textColor="#393232"
+        android:textSize="21sp"
+        android:textStyle="normal"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="299dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:width="250dp"
+        android:gravity="start|left"
+        android:text="- Conteúdo da nota 1"
+        android:textColor="#393232"
+        android:textSize="21sp"
+        android:textStyle="normal"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="162dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
